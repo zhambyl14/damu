@@ -1,0 +1,13 @@
+{
+  "name": "damu-seed",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Damu High School — базаны тазалап демо деректермен толтыратын скрипт",
+  "scripts": {
+    "seed": "node seed_demo.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0"
+  }
+}

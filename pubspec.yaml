@@ -1,0 +1,49 @@
+name: damu_high_school
+description: ҰБТ Preparation App — Damu High School
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Supabase
+  supabase_flutter: ^2.5.0
+
+  # State Management
+  provider: ^6.1.2
+
+  # Fonts
+  google_fonts: ^6.2.1
+
+  # Видеосабақ сілтемесін ашу үшін
+  url_launcher: ^6.2.5
+
+  # Видеоны қосымша ішінде ойнату (URL жасырылады, таратылмайды).
+  # iframe нұсқасы — Web + Android + iOS + Desktop барлығында жұмыс істейді
+  # (youtube_player_flutter Web-те ойнамайтын, мәңгі айналып тұратын).
+  youtube_player_iframe: ^5.2.0
+
+  # Скриншот/экран жазудан қорғау (видео + тесттер)
+  screen_protector: ^1.4.2
+
+  # Icons (already included in flutter but explicit for clarity)
+  cupertino_icons: ^1.0.8
+
+  # Excel импорты (мок тест сұрақтарын .xlsx файлдан оқу)
+  excel: ^4.0.6
+  # Файл таңдау (Excel файлды ашу)
+  file_picker: ^8.1.2
+  # Firebase removed after migration to Supabase
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
